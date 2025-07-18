@@ -5,6 +5,7 @@ import { SearchIcon, PlusIcon, UserIcon } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { useIsMobile } from '@/hooks/use-mobile';
+import ThemeToggle from '@/components/ThemeToggle';
 import Logo from './Logo';
 
 const AppNavbar = () => {
@@ -31,6 +32,7 @@ const AppNavbar = () => {
         )}
         
         <div className="flex items-center space-x-4">
+          <ThemeToggle />
           <Link to="/add-listing">
             <Button variant="outline" size={isMobile ? "icon" : "default"} className="rounded-full">
               <PlusIcon className="w-5 h-5" />
