@@ -188,7 +188,7 @@ const SearchPage = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
-        className="container mx-auto py-6"
+        className="container mx-auto py-6 dark:border-gray-700 dark:bg-gray-900"
       >
         <form onSubmit={handleSearch} className="flex flex-col md:flex-row gap-4 mb-6">
           <Input
@@ -225,7 +225,7 @@ const SearchPage = () => {
           </div>
         )}
         
-        <div className="flex flex-col md:flex-row gap-4">
+        <div className="flex flex-col md:flex-row gap-4 dark:border-gray-700 dark:bg-gray-900">
           <div className="md:w-1/4 p-4 rounded-md border">
             <h3 className="text-xl font-semibold mb-4 flex items-center">
               <FilterIcon className="mr-2 h-5 w-5" />

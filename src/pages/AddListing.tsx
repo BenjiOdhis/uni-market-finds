@@ -9,7 +9,7 @@ const AddListing = () => {
   
   return (
     <PageLayout>
-      <div className="py-4">
+      <div className="py-4 dark:border-gray-700 dark:bg-gray-900">
         <ListingForm />
       </div>
     </PageLayout>

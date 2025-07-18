@@ -202,7 +202,7 @@ const Profile = () => {
   
   return (
     <PageLayout>
-      <div className="max-w-5xl mx-auto space-y-8">
+      <div className="max-w-5xl mx-auto space-y-8 dark:border-gray-700 dark:bg-gray-900">
         {/* Profile Header */}
         <ProfileHeader 
           displayName={displayName}
