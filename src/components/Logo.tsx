@@ -29,7 +29,7 @@ const Logo: React.FC<LogoProps> = ({
     <Link to="/" className={`flex items-center ${className}`}>
       <span className={`font-bold tracking-tight ${sizeClasses[size]} ${colorClasses[variant]}`}>
         <span className="text-marketplace-purple">Kuza</span>
-        <span>-Market</span>
+        <span className="text-gray-900 dark:text-white">Market</span>
       </span>
     </Link>
   );
