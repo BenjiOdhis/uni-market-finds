@@ -51,7 +51,7 @@ const TestimonialsSection = () => {
                 <p className="text-sm text-gray-500">{testimonial.university}</p>
               </div>
             </div>
-            <p className="text-gray-700">"{testimonial.quote}"</p>
+            <p className="text-gray-300">"{testimonial.quote}"</p>
             <div className="mt-3 text-amber-500">★★★★★</div>
           </motion.div>
         ))}
