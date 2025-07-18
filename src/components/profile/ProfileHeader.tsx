@@ -35,7 +35,7 @@ const ProfileHeader = ({
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
-      className="bg-gradient-to-r from-purple-600 to-indigo-600 rounded-xl p-6 text-white"
+      className="bg-gradient-to-r from-purple-600 to-indigo-600 rounded-xl p-6 text-white dark:border-gray-700 dark:bg-gray-900"
     >
       <div className="flex flex-col md:flex-row items-center md:items-start gap-6">
         <Avatar className="h-24 w-24 border-4 border-white shadow-lg">
