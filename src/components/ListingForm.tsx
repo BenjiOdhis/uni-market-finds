@@ -126,7 +126,7 @@ const ListingForm = () => {
   };
 
   return (
-    <Card className="w-full max-w-2xl mx-auto">
+    <Card className="w-full max-w-2xl mx-auto dark:border-gray-700 dark:bg-gray-900">
       <form onSubmit={handleSubmit}>
         <CardHeader>
           <CardTitle className="text-2xl">Add a New Listing</CardTitle>

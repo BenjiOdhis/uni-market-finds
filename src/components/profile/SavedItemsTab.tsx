@@ -24,14 +24,14 @@ const SavedItemsTab = ({ listings }: SavedItemsTabProps) => {
   return (
     <>
       {listings.length > 0 ? (
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 dark:border-gray-700 dark:bg-gray-900">
           {listings.map(item => (
             <motion.div
               key={item.id}
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.3 }}
-              className="hover:-translate-y-1 transition-transform duration-200"
+              className="hover:-translate-y-1 transition-transform duration-200 dark:border-gray-700 dark:bg-gray-900"
             >
               <ItemCard 
                 key={item.id} 

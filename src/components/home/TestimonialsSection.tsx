@@ -40,7 +40,7 @@ const TestimonialsSection = () => {
           <motion.div
             key={i}
             variants={fadeInUp}
-            className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-all duration-300"
+            className="bg-white p-6 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-all duration-300 dark:border-gray-700 dark:bg-gray-900"
           >
             <div className="flex items-start space-x-4 mb-4">
               <div className="bg-marketplace-purple text-white w-10 h-10 rounded-full flex items-center justify-center text-lg font-bold">
@@ -51,7 +51,7 @@ const TestimonialsSection = () => {
                 <p className="text-sm text-gray-500">{testimonial.university}</p>
               </div>
             </div>
-            <p className="text-gray-700">"{testimonial.quote}"</p>
+            <p className="text-gray-300">"{testimonial.quote}"</p>
             <div className="mt-3 text-amber-500">★★★★★</div>
           </motion.div>
         ))}

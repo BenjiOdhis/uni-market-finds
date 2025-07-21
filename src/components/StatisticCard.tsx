@@ -24,7 +24,7 @@ const StatisticCard: React.FC<StatisticCardProps> = ({
   return (
     <Card className={`overflow-hidden ${className}`}>
       <CardContent className="p-6">
-        <div className="flex justify-between items-start">
+        <div className="flex justify-between items-start dark:border-gray-700 dark:bg-gray-900">
           <div>
             <p className="text-sm font-medium text-muted-foreground mb-1">{title}</p>
             <h3 className="text-2xl font-bold">{value}</h3>

@@ -37,7 +37,7 @@ const EnhancedListingItem: React.FC<EnhancedListingItemProps> = ({
   };
 
   return (
-    <div className="flex items-center p-4 border rounded-lg hover:bg-gray-50 gap-4">
+    <div className="flex items-center p-4 border rounded-lg hover:bg-gray-50 gap-4 dark:border-gray-700 dark:bg-gray-900">
       <div className="h-16 w-16 flex-shrink-0">
         <img
           src={image || 'https://via.placeholder.com/300x200?text=No+Image'}

@@ -32,7 +32,7 @@ const FeaturesSection = () => {
       whileInView="visible"
       viewport={{ once: true, margin: "-100px" }}
       variants={staggerContainer}
-      className="py-8"
+      className="py-8 "
     >
       <h2 className="text-2xl font-semibold text-center mb-8">✨ Why Use Kuza-Market? ✨</h2>
       
@@ -41,7 +41,7 @@ const FeaturesSection = () => {
           <motion.div
             key={i}
             variants={fadeInUp}
-            className="flex flex-col items-center text-center p-4 rounded-lg border border-gray-100 shadow-sm bg-white hover:shadow-md hover:-translate-y-1 transition-all duration-300"
+            className="flex flex-col items-center text-center p-4 rounded-lg border border-gray-100 shadow-sm bg-white hover:shadow-md hover:-translate-y-1 dark:border-gray-700 transition-all dark:bg-gray-900 duration-300"
           >
             <div className="bg-marketplace-purple/10 p-3 rounded-full mb-3">
               <feature.icon className="h-6 w-6 text-marketplace-purple" />

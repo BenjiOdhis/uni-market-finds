@@ -29,6 +29,7 @@ const ProfileForm = ({ form, onSubmit }: ProfileFormProps) => {
       animate={{ opacity: 1, height: 'auto' }}
       exit={{ opacity: 0, height: 0 }}
       transition={{ duration: 0.3 }}
+      className='dark:border-gray-700 dark:bg-gray-900'
     >
       <Card>
         <CardHeader>

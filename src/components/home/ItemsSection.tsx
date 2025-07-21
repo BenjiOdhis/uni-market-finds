@@ -105,7 +105,7 @@ const ItemsSection = ({ featuredItems, recentItems, isLoading, formatRelativeTim
       whileInView="visible"
       viewport={{ once: true, margin: "-50px" }} // Improved margin for earlier loading
       variants={fadeInUp}
-      className="bg-white rounded-lg shadow-sm border border-gray-100 p-6"
+      className="bg-white rounded-lg shadow-sm border border-gray-100 dark:bg-gray-900 dark:border-gray-700 p-6"
     >
       <h2 className="text-2xl font-semibold mb-6">🛍️ Explore Items</h2>
       
@@ -139,7 +139,7 @@ const ItemsSection = ({ featuredItems, recentItems, isLoading, formatRelativeTim
           {renderItemsGrid(recentItems, "Recent")}
           {recentItems.length > 0 && (
             <div className="mt-6 text-center">
-              <Link to="/search" className="inline-flex items-center bg-marketplace-purple/10 text-marketplace-purple px-4 py-2 rounded-full hover:bg-marketplace-purple/20 transition-colors">
+              <Link to="/search" className="inline-flex items-center bg-marketplace-purple/10 dark:bg-gray-900 text-marketplace-purple px-4 py-2 rounded-full hover:bg-marketplace-purple/20 transition-colors">
                 Browse all items 🆕
                 <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>

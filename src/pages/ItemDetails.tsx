@@ -164,7 +164,7 @@ const ItemDetails = () => {
   
   return (
     <PageLayout>
-      <div className="max-w-4xl mx-auto py-6">
+      <div className="max-w-4xl mx-auto py-6 dark:border-gray-700 dark:bg-gray-900">
         <Link to="/search" className="inline-flex items-center text-marketplace-purple mb-4 hover:underline">
           <ArrowLeft size={16} className="mr-1" />
           Back to search

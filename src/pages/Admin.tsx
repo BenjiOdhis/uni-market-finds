@@ -122,7 +122,7 @@ const AdminPage = () => {
 
   return (
     <PageLayout>
-      <div className="space-y-6">
+      <div className="space-y-6 dark:border-gray-700 dark:bg-gray-900">
         <div>
           <h1 className="text-2xl font-bold mb-2">Admin Dashboard</h1>
           <p className="text-gray-500 mb-6">Manage listings, users and settings</p>
